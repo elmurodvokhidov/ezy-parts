@@ -1,0 +1,107 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    padding: 7px 0;
+    align-items: center;
+}
+
+
+.BlackNavSec {
+    background: linear-gradient(180deg, rgba(211, 211, 211, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #3F3F3F;
+    height: 40px;
+    padding: 8px;
+}
+
+.BlackNavSec div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.BlackNavSec div div {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 21px */
+    font-variant: all-small-caps;
+    letter-spacing: 0.7px;
+}
+
+.BlackNavSec div div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.BlackNavSec div div:nth-child(1) span {
+    border-bottom: 1px dashed;
+}
+
+.pages {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    cursor: pointer;
+    width: 440px;
+}
+
+.inputSearch {
+    border-bottom: 1px solid #333;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputSearch input {
+    box-sizing: content-box;
+    border: none;
+    outline: none;
+    width: 300px;
+    padding: 5px;
+}
+
+.inputSearch div {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    opacity: 0.6;
+}
+
+.accounts {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.accounts div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34.526px;
+    height: 34.526px;
+    color: #FFF;
+    border-radius: 50%;
+    background-color: #3BAEAB;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.catalogs {
+    padding: 11px;
+    margin: 11px;
+}
+
+.catalogs ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.catalogs ul li {
+    width: 170px;
+    cursor: pointer;
+}

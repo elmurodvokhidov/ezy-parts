@@ -1,5 +1,12 @@
-* {
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap');
+
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
