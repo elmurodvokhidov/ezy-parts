@@ -7,6 +7,7 @@ import { FiUser } from "react-icons/fi";
 
 import "./navbar.css"
 import { ContextData } from '../context/ContextFile';
+import { NavLink } from 'react-router-dom';
 export default function Navbar() {
   const { catalogs } = useContext(ContextData)
   return (
@@ -19,14 +20,10 @@ export default function Navbar() {
         </div>
       </section>
       <nav className='container'>
-        <div className="logo"><img src="./public/img/logo.svg" alt="" /></div>
+        <div className="logo"><NavLink to={"/"} ><img src="./public/img/logo.svg" alt="" /></NavLink></div>
 
         <ul className="pages">
-          <li>О нас</li>
-          <li>Помощь</li>
-          <li>Продавцу</li>
-          <li>Покупателю</li>
-          <li>Контакты</li>
+          <li><NavLink to={"products"}>Products</NavLink></li>
         </ul>
 
         <div className='inputSearch'>

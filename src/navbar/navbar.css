@@ -4,6 +4,10 @@ nav {
     height: 69px;
     padding: 7px 0;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #FFF;
+    z-index: 10;
 }
 
 

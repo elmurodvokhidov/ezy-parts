@@ -1,0 +1,124 @@
+.xit {
+    margin-left: 150px;
+    margin-top: 89px;
+    color: #18A7A7;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.tex {
+    color: #18A7A7;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+
+
+}
+
+.ren {
+    color: var(--Dark, #333);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.card:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+    border: 1px solid rgb(53, 53, 163);
+    box-shadow: 0px 10px 20px 0px rgba(42, 121, 122, 0.539);
+}
+
+.card {
+    width: 215px;
+    border-radius: 20px;
+    border: 1px solid rgba(45, 121, 121, 0.20);
+    background: #FCFCFC;
+    box-shadow: 0px 10px 20px 0px rgba(42, 121, 122, 0.15);
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 33px;
+    gap: 13px;
+}
+
+.otacard {
+    display: flex;
+}
+
+.moy {
+    width: 360px;
+    height: 325px;
+    margin-top: 10px;
+    flex-shrink: 0;
+}
+
+.svech {
+    color: var(--Dark, #333);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 30px;
+    margin-left: 29px;
+
+}
+
+.zash {
+    color: var(--Opacity-2, #867777);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 29px;
+}
+
+.otacard:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+.kichikcard {
+    width: 150;
+    height: 136px;
+    flex-shrink: 0;
+    background-color: #F4F8F8;
+}
+
+.moy:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+.moy2:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+
+
+
+.ynm1 {
+    display: flex;
+    gap: 31px;
+    margin-top: 54px;
+    margin-bottom: 100px;
+}
+
+.moy2 {
+    margin-left: 61px;
+    width: 360px;
+    height: 299px;
+}

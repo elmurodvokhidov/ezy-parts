@@ -1,0 +1,14 @@
+.product__img img {
+    width: 134.906px;
+    height: 134px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.filter {
+    position: sticky;
+    top: 0;
+}
+.page3__container{
+    position: relative;
+}

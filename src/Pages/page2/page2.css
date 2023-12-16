@@ -1,0 +1,74 @@
+.cardsSpecial {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.cardS {
+    display: flex;
+    width: 220px;
+    height: 287px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid var(--Opacity-1, #F7EEEC);
+    margin: 5px;
+    position: relative;
+}
+
+.cardS img {
+    width: 188px;
+    height: 119px;
+    object-fit: cover;
+}
+
+.cardS p {
+    color: var(--Dark, #333);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cardS span {
+    color: var(--Dark, #333);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 18px;
+}
+
+.cardS div {
+    color: var(--Dark, #333);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 18px;
+}
+
+.cardS button {
+    display: flex;
+    width: 49.195px;
+    height: 43px;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: #00766C;
+    cursor: pointer;
+}
+
+.cardS button img {
+    width: 22.984px;
+    height: 23px;
+}
